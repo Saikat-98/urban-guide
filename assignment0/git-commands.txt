@@ -1,0 +1,45 @@
+git commands:-
+-----------------
+*git status
+->on branch master:
+
+*git init
+->to initialize/track folder
+->using this comand master branch created automtically
+
+* git add .
+->to track all the files
+
+*git config --local user.name "user_name"
+->global: for all projects.
+->local: for a particular project not for other projects.
+->system: for all users.
+
+*git config --local user.name "user_name"
+->to assign username
+
+*git config --local user.name
+->to get username
+
+*git config --local user.email "abc@gmail.com"
+->to assign email
+
+*git config --local user.email
+->to get email
+
+*git commit -m "message for user"
+->message will be seen by other user and also to commit changes
+
+* git remote add origin "url"
+->to add remote url
+
+* git remote show origin
+->origin is a variable to store address,this is command to check origin 
+  value 
+
+* git push -u origin master
+-> to send from local to online repository 
+
+*git add <filename>
+  to add a partcular file
+
